@@ -1,0 +1,20 @@
+import java.util.*;
+import java.util.Random;
+
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        Random sorteio = new Random();
+
+        int numero = sorteio.nextInt(10) + 1;
+
+        System.out.println("Numero sorteado: " + numero);
+        if (numero >= 5) {
+          System.out.println("numero alto");
+        } else 
+          System.out.println("numero baixo");
+
+        }
+    }
